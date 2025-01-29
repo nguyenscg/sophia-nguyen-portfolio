@@ -1,4 +1,6 @@
-function HeroSection() {
+import React from "react";
+
+const HeroSection = () => {
     return (
         <>
             <section className="hero" id="none"></section>
