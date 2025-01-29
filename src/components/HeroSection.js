@@ -6,8 +6,8 @@ const HeroSection = () => {
             <section className="hero" id="none"></section>
             <div className="container">
                 <span className="tagline">Welcome to my Portfolio!</span>
-                <h1>Hello, I'm Sophia Nguyen! <span className="wrap">Software engineer & Aspiring Data Scientist</span></h1>
-                <p>with a passion for crafting interactive web applications and analyzing data to drive impactful solutions. Whether it's writing clean code or solving complex problems, I thrive on creating experiences that engage and inspire users.</p>
+                <h1>Hello, I'm Sophia Nguyen! <span className="wrap">Python Developer & Aspiring Data Scientist</span></h1>
+                <p>Passionate about building data-driven solutions and backend applications. I enjoy working with Python, Flask, and data analytics to transform raw data into meaningful insights.</p>
             </div>
         </>
     )
