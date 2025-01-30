@@ -1,0 +1,10 @@
+/* ./src/index.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* HERO SECTION */
+.hero {
+    margin-top: 0;
+    padding: 260px 0 100px 0;
+}
