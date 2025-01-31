@@ -16,10 +16,10 @@ const NavBar = () => {
                     </button>
 
             <div className="hidden lg:flex space-x-8">
-                    <a href="#home" className={`text-lg hover:text-neonCyan ${active === "home" ? "text-valorantRed" : ""}`} onClick={() => updateActive("home")}>Home</a>
-                    <a href="#about" className={`text-lg hover:text-neonCyan ${active === "about" ? "text-valorantRed" : ""}`} onClick={() => updateActive("about")}>About</a>
-                    <a href="#projects" className={`text-lg hover:text-neonCyan ${active === "projects" ? "text-valorantRed" : ""}`} onClick={() => updateActive("projects")}>Projects</a>
-                    <a href="#contact" className={`text-lg hover:text-neonCyan ${active === "contact" ? "text-valorantRed" : ""}`} onClick={() => updateActive("contact")}>Contact</a>
+                    <a href="#home" className={`text-lg hover:text-neonCyan hover:no-underline ${active === "home" ? "text-valorantRed" : ""}`} onClick={() => updateActive("home")}>Home</a>
+                    <a href="#about" className={`text-lg hover:text-neonCyan hover:no-underline ${active === "about" ? "text-valorantRed" : ""}`} onClick={() => updateActive("about")}>About</a>
+                    <a href="#projects" className={`text-lg hover:text-neonCyan hover:no-underline ${active === "projects" ? "text-valorantRed" : ""}`} onClick={() => updateActive("projects")}>Projects</a>
+                    <a href="#contact" className={`text-lg hover:text-neonCyan hover:no-underline ${active === "contact" ? "text-valorantRed" : ""}`} onClick={() => updateActive("contact")}>Contact</a>
             </div>
          </div>
          </div>
