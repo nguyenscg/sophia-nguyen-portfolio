@@ -1,10 +1,11 @@
 import React from "react";
+import game_analytics_dash from "../assets/game_analytics_dashboard.png"; 
 
 const web_projects = [
     {
         title: "Game Analytics Dashboard",
         description: "A web app that provides on player perfomance in Valorant using Python and Flask",
-        imgSrc: "https://via.placeholder.com/400",
+        imgSrc: game_analytics_dash,
     },
 ]
 
