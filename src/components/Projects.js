@@ -6,6 +6,7 @@ const web_projects = [
         title: "Game Analytics Dashboard",
         description: "A web app that provides on player perfomance in Valorant using Python and Flask",
         imgSrc: game_analytics_dash,
+        link: "https://game-analytics-dashboard.onrender.com/",
     },
 ]
 
@@ -20,6 +21,7 @@ const Projects = () => {
                             <img src={project.imgSrc} alt={project.title} className="rounded-lg mb-4" />
                             <h3 className="text-2xl font-semibold text-neonCyan">{project.title}</h3>
                             <p className="text-gray-300 mt-2">{project.description}</p>
+                            <button className="bg-darkSlate hover:bg-neonCyan transition text-white py-2 px-4 rounded-lg mt-4" onClick={() => window.location.href = project.link}>Enter Dashboard</button>
                         </div>
                     ))}
                 </div>
