@@ -12,6 +12,8 @@ module.exports = {
         rose: "#F4C2C2",
         midnight: "#2F2F3A",
         deepPurple: "#2E1A47",
+        dusty: "#B8AFA1",
+        moonlit: "#D6CDEA",
         white: "#F8F8F8",
       },
     },
