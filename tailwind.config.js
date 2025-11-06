@@ -10,6 +10,8 @@ module.exports = {
         background: "#1F0B0A",
         aboutBg: "#4C2628",
         projectsBg: "#734A4A",
+        contactBg: "#9C7070",
+        projectsHightlight: "#C79898",
         subtitles: "#AC7E7F",
         highlights: "#734A4A",
         buttons: "#4C2628",
