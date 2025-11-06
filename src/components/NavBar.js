@@ -7,7 +7,7 @@ const NavBar = () => {
     }
     
     return (
-        <nav className="bg-deepPurple text-white">
+        <nav className="bg-aboutBg text-white">
             <div className="max-w-screen-x1 mx-auto px-4 py-2">
                 <div className="flex justify-between items-center">
 

@@ -8,6 +8,8 @@ module.exports = {
       colors: {
         primaryRose: "#F4C2C2",
         background: "#1F0B0A",
+        aboutBg: "#4C2628",
+        projectsBg: "#734A4A",
         subtitles: "#AC7E7F",
         highlights: "#734A4A",
         buttons: "#4C2628",

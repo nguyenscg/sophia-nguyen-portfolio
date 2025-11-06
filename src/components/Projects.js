@@ -12,7 +12,7 @@ const web_projects = [
 
 const Projects = () => {
     return (
-        <section id="projects" className="bg-darkSlate text-white py-16 px-6">
+        <section id="projects" className="bg-projectsBg text-white py-16 px-6">
             <div className="max-w-5xl mx-auto">
                 <h2 className="text-4xl font-bold text-neonCyan text-center mb-8">Projects</h2>
                 <div className="grid md:grid-cols-2 gap-8">
