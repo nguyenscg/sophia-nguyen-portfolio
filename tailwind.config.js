@@ -11,7 +11,7 @@ module.exports = {
         subtitles: "#C79898",
         highlights: "#734A4A",
         buttons: "#4C2628",
-        hmm: "#9C7070",
+        hmm: "#D4A4A4",
         valorantRed: "#FF4655",
         cloudMist: "#FAF9F6",
         midnight: "#2F2F3A",
