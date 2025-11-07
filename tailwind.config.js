@@ -9,7 +9,7 @@ module.exports = {
         primaryRose: "#F4C2C2",
         background: "#1F0B0A",
         subtitle: "#C79898",
-        aboutBg: "#9C7070",
+        aboutBg: "#734A4A",
         projectsBg: "#4C2628",
         cardBg: "#734A4A",
         projectsHightlight: "#CB9C9C",

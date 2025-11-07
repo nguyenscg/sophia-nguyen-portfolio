@@ -14,7 +14,7 @@ const Projects = () => {
     return (
         <section id="projects" className="bg-projectsBg text-white py-16 px-6">
             <div className="max-w-5xl mx-auto">
-                <h2 className="text-4xl font-bold text-neonCyan text-center mb-8">Projects</h2>
+                <h2 className="text-4xl font-bold text-subtitle text-center mb-8">Projects</h2>
                 <div className="grid md:grid-cols-2 gap-8">
                     {web_projects.map((project, index) => (
                         <div key={index} className="bg-cardBg p-6 rounded-lg shadow-lg">
