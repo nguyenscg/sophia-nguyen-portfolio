@@ -7,11 +7,11 @@ module.exports = {
     extend: {
       colors: {
         primaryRose: "#F4C2C2",
-        background: "#1F0B0A",
         subtitle: "#C79898",
+        background: "#1F0B0A",
         aboutBg: "#734A4A",
         projectsBg: "#4C2628",
-        cardBg: "#734A4A",
+        cards: "#734A4A",
         projectsHightlight: "#CB9C9C",
         highlights: "#734A4A",
         buttons: "#734A4A",

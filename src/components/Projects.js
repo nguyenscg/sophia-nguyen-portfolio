@@ -17,7 +17,7 @@ const Projects = () => {
                 <h2 className="text-4xl font-bold text-subtitle text-center mb-8">Projects</h2>
                 <div className="grid md:grid-cols-2 gap-8">
                     {web_projects.map((project, index) => (
-                        <div key={index} className="bg-cardBg p-6 rounded-lg shadow-lg">
+                        <div key={index} className="bg-cards p-6 rounded-lg shadow-lg">
                             <img src={project.imgSrc} alt={project.title} className="rounded-lg mb-4" />
                             <h3 className="text-2xl font-semibold text-subtitle">{project.title}</h3>
                             <p className="text-gray-300 mt-2">{project.description}</p>
