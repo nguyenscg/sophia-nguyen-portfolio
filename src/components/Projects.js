@@ -12,16 +12,16 @@ const web_projects = [
 
 const Projects = () => {
     return (
-        <section id="projects" className="bg-projectsBg text-white py-16 px-6">
+        <section id="projects" className="bg-background text-white py-16 px-6">
             <div className="max-w-5xl mx-auto">
                 <h2 className="text-4xl font-bold text-neonCyan text-center mb-8">Projects</h2>
                 <div className="grid md:grid-cols-2 gap-8">
                     {web_projects.map((project, index) => (
-                        <div key={index} className="bg-projectsHighlight p-6 rounded-lg shadow-lg">
+                        <div key={index} className="bg-cardBg p-6 rounded-lg shadow-lg">
                             <img src={project.imgSrc} alt={project.title} className="rounded-lg mb-4" />
-                            <h3 className="text-2xl font-semibold text-neonCyan">{project.title}</h3>
+                            <h3 className="text-2xl font-semibold text-subtitle">{project.title}</h3>
                             <p className="text-gray-300 mt-2">{project.description}</p>
-                            <button className="bg-darkSlate hover:bg-neonCyan transition text-white py-2 px-4 rounded-lg mt-4" onClick={() => window.location.href = project.link}>Enter Dashboard</button>
+                            <button className="bg-primaryRose hover:bg-cardHover transition text-background py-2 px-4 rounded-lg mt-4" onClick={() => window.location.href = project.link}>Enter Dashboard</button>
                         </div>
                     ))}
                 </div>
